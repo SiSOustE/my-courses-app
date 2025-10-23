@@ -1,12 +1,20 @@
-# React + Vite
+# Учебный проект: Курсы с React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Одностраничное приложение на React с использованием **React Router v6.4+** и его нового **Data API** (`loader`, `action`, `useLoaderData`).
 
-Currently, two official plugins are available:
+## 📌 Реализовано
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Главная страница
+- Страница «О сайте»
+- Список учебных курсов
+- Детальная страница курса (`/courses/:id`)
+- Форма добавления нового курса
+- Роутинг между страницами
+- Использование `loader` и `useLoaderData` для загрузки данных
+- Отправка данных через `Form` и `action`
 
-## Expanding the ESLint configuration
+## 🚀 Запуск проекта
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Установи зависимости:
+   ```bash
+   npm install
