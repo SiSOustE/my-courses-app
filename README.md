@@ -1,4 +1,4 @@
-# Учебный проект: Курсы с React Router
+# Учебный проект: Курсы с React Router (урок 66)
 
 Одностраничное приложение на React с использованием **React Router v6.4+** и его нового **Data API** (`loader`, `action`, `useLoaderData`).
 
